@@ -1,0 +1,15 @@
+.carousel-doces{
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.foto-produto{
+    display: block;
+
+    cursor: pointer;
+}
+
+.foto-produto:hover{
+    border: 3px solid rgb(252, 252, 252);
+}

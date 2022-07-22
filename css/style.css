@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(146, 140, 141);
+    color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(185, 178, 181);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: rgb(245, 243, 132);
+    font-size: 60px;
+    font-weight: 600;
+ 
+}   
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(236, 238, 130);
+    height: 20px;
+    font-family: 'Hina Mincho', serif;
+}
+.nav-bar-superior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 150px;
+    font-family: 'Hina Mincho', serif;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(49, 4, 4);
+    font-weight: 600;
+
+}
+
+nav a:hover{
+    color: seashell;
+
+}
+
+.pages{
+    height: 450px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(233, 231, 107);
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    color: rgb(49, 4, 4);
+    position: fixed;
+    bottom: 0%;
+}
+
+#nome-aluno{
+    font-size: 20px;
+    font-weight: 600;
+}
+
